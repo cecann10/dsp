@@ -16,7 +16,7 @@ high = dist.cdf(imperial_to_cms(6,1))
 
 print(f'''{round((high-low)*100,2)}% of men in \
 the US pass the height requirement of the Blue \
-Man group (i.e. are between 5'10" and 6'1" \
+Man group (i.e. are between 5'10" and 6'1").
 ''')
 ```
 
