@@ -1,6 +1,6 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
-**Answer: 34.27% of men in the US pass the height requirement of the Blue Man group (i.e. are between 5'10" and 6'1").**
+Answer: **34.27%** of men in the US pass the height requirement of the Blue Man group (i.e. are between 5'10" and 6'1").
 
 ```bash
 dist = scipy.stats.norm(loc=178, scale=7.7)
