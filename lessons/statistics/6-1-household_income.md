@@ -9,5 +9,5 @@ Income data:
 As the upper bound assumption grows...
 - the **median does not change**.
 - the **mean increases**.
-- the **Pearson's Median Skewness drops**.
+- the **Pearson's Median Skewness decreases**.
 - the **percent under the mean increases**.
