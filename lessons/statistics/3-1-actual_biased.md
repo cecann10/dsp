@@ -19,3 +19,16 @@ biased_numkdhh_pmf = BiasPmf(biased_numkdhh_pmf, label='Biased # kids in househo
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([actual_numkdhh_pmf, biased_numkdhh_pmf])
 thinkplot.Show(xlabel='Number Kids', ylabel='PMF')
+
+
+### Answer Part 2: Below will print the means for actual and biased distributions of number of children in household
+```bash
+print(f'The mean for the actual data for number of kids in household is {actual_numkdhh_pmf.Mean()}')
+print(f'The mean for the biased data for number of kids in household is {biased_numkdhh_pmf.Mean()}')
+```
+Output of above:
+```bash
+'The mean for the actual data for number of kids in household is 1.024205155043831.'
+'The mean for the biased data for number of kids in household is 2.891794217687075.'
+```
+
